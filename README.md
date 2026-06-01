@@ -6,6 +6,113 @@ SecureShield AI is a full-stack cybersecurity platform that simulates a real-wor
 
 ---
 
+# 🏗️ System Architecture
+
+![SecureShield AI Architecture](docs/Architecture.png)
+
+The SecureShield AI architecture follows a simple layered design that separates the user interface, application logic, and data storage components.
+
+## Architecture Flow
+
+```text
+SOC Analyst
+	│
+	▼
+React Frontend
+	│
+	▼
+Flask Backend
+	│
+	▼
+Local JSON Data Storage
+```
+
+## Components
+
+### 👨‍💻 SOC Analyst
+
+The SOC Analyst interacts with the platform through the web interface and can:
+
+- Monitor security alerts
+- Review detected threats
+- Investigate incidents
+- Analyze attack trends
+- Interact with the AI SOC Assistant
+
+---
+
+### 🎨 React Frontend
+
+The frontend provides all user-facing pages:
+
+- Dashboard
+- Threats
+- Incidents
+- Analytics
+- AI Assistant
+
+The frontend sends API requests to the Flask backend and displays security data to the analyst.
+
+---
+
+### ⚙️ Flask Backend
+
+The backend handles all business logic and security processing.
+
+#### Core Modules
+
+**Threat Detection Engine**
+- Detects Brute Force attacks
+- Detects SQL Injection attacks
+- Detects XSS attacks
+- Detects Failed Login attempts
+
+**Incident Management**
+- Creates incidents
+- Updates incident status
+- Escalates incidents
+- Resolves incidents
+
+**Analytics Engine**
+- Generates security statistics
+- Produces attack distribution data
+- Produces severity distribution data
+
+**AI Assistant Logic**
+- Processes analyst questions
+- Analyzes SecureShield AI data
+- Generates cybersecurity-focused responses
+
+---
+
+### 📁 Local Data Storage
+
+SecureShield AI stores data locally using JSON files.
+
+Examples include:
+
+- alerts.json
+- incidents.json
+- statistics.json
+- chats.json
+
+These files store detected threats, incident information, analytics data, and AI assistant chat history.
+
+---
+
+## Data Flow
+
+1. The SOC Analyst interacts with the React frontend.
+2. The frontend sends API requests to the Flask backend.
+3. The backend processes threat, incident, analytics, or AI requests.
+4. The backend reads or updates local JSON files.
+5. The backend returns JSON responses to the frontend.
+6. The frontend displays updated information to the analyst.
+
+This architecture keeps SecureShield AI lightweight, easy to understand, and easy to deploy while still simulating a real-world Security Operations Center (SOC) workflow.
+
+---
+
 # 📸 Screenshots
 
 ## SOC Dashboard
