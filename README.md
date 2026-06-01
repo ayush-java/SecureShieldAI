@@ -6,13 +6,13 @@ SecureShield AI is a full-stack cybersecurity platform that simulates a real-wor
 
 ---
 
-# 🏗️ System Architecture
+## 🏗️ Architecture Diagram
 
 ![SecureShield AI Architecture](docs/Architecture.png)
 
 The SecureShield AI architecture follows a simple layered design that separates the user interface, application logic, and data storage components.
 
-## Architecture Flow
+### Architecture Flow
 
 ```text
 SOC Analyst
@@ -27,7 +27,7 @@ Flask Backend
 Local JSON Data Storage
 ```
 
-## Components
+### Components
 
 ### 👨‍💻 SOC Analyst
 
@@ -100,7 +100,7 @@ These files store detected threats, incident information, analytics data, and AI
 
 ---
 
-## Data Flow
+### Data Flow
 
 1. The SOC Analyst interacts with the React frontend.
 2. The frontend sends API requests to the Flask backend.
@@ -110,6 +110,69 @@ These files store detected threats, incident information, analytics data, and AI
 6. The frontend displays updated information to the analyst.
 
 This architecture keeps SecureShield AI lightweight, easy to understand, and easy to deploy while still simulating a real-world Security Operations Center (SOC) workflow.
+
+---
+
+## 🎥 Demo Video
+
+🔗 Demo Link: [Watch SecureShield AI Demo](https://drive.google.com/file/d/1dd36FDTcOz0Mx4J0RoM4l4h0s47P7h9u/view?usp=sharing)
+
+This video demonstrates:
+
+- Dashboard
+- Threat Monitoring
+- Incident Response
+- Security Analytics
+- AI SOC Assistant
+- Threat Detection Workflow
+
+---
+
+# 🚀 Key Features
+
+## Threat Detection Engine
+
+Automatically detects:
+
+* Brute Force Attacks
+* Failed Login Attempts
+* SQL Injection Attempts
+* Cross-Site Scripting (XSS)
+
+---
+
+## Incident Management
+
+Supports:
+
+* Investigation
+* Escalation
+* Resolution
+* Severity Tracking
+* Analyst Assignment
+
+---
+
+## Security Analytics
+
+Provides:
+
+* Attack Distribution
+* Severity Distribution
+* Threat Summaries
+* Historical Analysis
+
+---
+
+## AI Security Intelligence
+
+Provides:
+
+* Incident Summaries
+* Threat Analysis
+* Security Recommendations
+* Remediation Guidance
+* Security Reporting
 
 ---
 
@@ -320,55 +383,7 @@ Provides security analysts with an AI-powered assistant capable of analyzing Sec
 
 ---
 
-# 🚀 Core Features
-
-## Threat Detection Engine
-
-Automatically detects:
-
-* Brute Force Attacks
-* Failed Login Attempts
-* SQL Injection Attempts
-* Cross-Site Scripting (XSS)
-
----
-
-## Incident Management
-
-Supports:
-
-* Investigation
-* Escalation
-* Resolution
-* Severity Tracking
-* Analyst Assignment
-
----
-
-## Security Analytics
-
-Provides:
-
-* Attack Distribution
-* Severity Distribution
-* Threat Summaries
-* Historical Analysis
-
----
-
-## AI Security Intelligence
-
-Provides:
-
-* Incident Summaries
-* Threat Analysis
-* Security Recommendations
-* Remediation Guidance
-* Security Reporting
-
----
-
-# 🏗️ Technology Stack
+# 🏗️ Technologies Used
 
 ## Frontend
 
