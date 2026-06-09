@@ -21,7 +21,7 @@ The platform simulates real-world SOC workflows by allowing analysts to monitor 
 
 ## 🎥 Demo Video
 
-🔗 Demo Link: https://drive.google.com/file/d/1dd36FDTcOz0Mx4J0RoM4l4h0s47P7h9u/view?usp=sharing
+🔗 **[Watch SecureShield AI Demo](https://drive.google.com/file/d/1dd36FDTcOz0Mx4J0RoM4l4h0s47P7h9u/view?usp=sharing)**
 
 ---
 
